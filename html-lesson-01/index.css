@@ -1,0 +1,81 @@
+body{
+   margin: 0;
+}
+
+.top-section{
+   background-color: rgb(241,240,238);
+   height: 60vh;
+   border-radius: 70px;
+}
+
+#navbar{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.top-left-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+}
+
+.btn-primary{
+   background-color: white;
+
+  height: 20px;
+   padding: 6px 2em;
+   border-radius: 30px;
+  
+
+}
+
+#social-media-links{
+   display: flex;
+   flex-direction: row;
+   gap: 6px;
+}
+
+/* this styles the photo */
+#profile-photo{
+   width: 200px;
+   height: 200px;
+   border-radius: 100px;
+}
+
+#profile-container{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+
+#profile-text{
+   position: absolute;
+   width: 500px;
+   margin: 0;
+   top: 10em;
+}
+
+#profile-container h5 {
+   font-size: 40px;
+   font-weight: bold;
+   word-wrap: normal;
+   text-align: center;
+}
+
+#redirect{
+   background-color: black;
+   padding:8px 22px;
+   color: white;
+   border-radius: 30px;
+}
+
+#redirect-container{
+   position: absolute;
+   top: 20em;
+
+}
