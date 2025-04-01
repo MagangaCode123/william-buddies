@@ -21,15 +21,12 @@ body{
   gap: 14px;
 }
 
-.btn-primary{
+/* .btn-primary{
    background-color: white;
-
   height: 20px;
    padding: 6px 2em;
    border-radius: 30px;
-  
-
-}
+} */
 
 #social-media-links{
    display: flex;
