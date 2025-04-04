@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgb(27,26,31);
+    height: screen;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: light;
+    font-weight: 300;
+    color: white;
+}
+
+.header-img{
+    background-image: url('../images/v2osk-1Z2niiBPg5A-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 95vw;
+    height: 70vh;
+   
+    
+}
