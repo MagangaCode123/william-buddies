@@ -1,0 +1,91 @@
+ALGORITHM three_nb
+VAR
+    // x:INTEGER, ///name of variable ====> x and then the type is INTEGER
+    // y:INTEGER, ///name of variable ====> y and then the type is INTEGER
+    // z:INTEGER  ///name of variable ====> z and then the type is INTEGER
+
+    x,y,z:INTEGER 
+CONST 
+    a:STRING
+    f : STRING := "some string"
+    
+
+BEGIN
+
+    a := 10  
+    x := "william-buddies"
+    Read(x)
+    Read(y)
+    Read(z)
+    f :=  a and x
+
+
+
+    sum := x + y + z
+
+    Write(sum)
+END
+
+/*
+1.AI marks your work and returns marks
+
+2.Out of 50 points,we can start calculating our grade
+
+
+3.Above 40 ===> A
+
+4.Above 30 ===> B
+
+5.Ab0ve 20 ===> C
+
+6.Above 10 ===> D
+
+7. Below 10 ====> E
+
+
+
+
+*/
+
+
+SWITCH (grade) DO
+    CASE grade > 0 AND grade < 10: 
+        Write("E")
+    CASE grade > 10 AND grade < 20: 
+        Write("D")
+    CASE grade > 20 AND grade < 30: 
+        Write("C")
+    CASE grade > 30 AND grade < 40: 
+        Write("B")
+    CASE grade > 40 AND grade <= 50: 
+        Write("A")
+    DEFAULT:
+        Write("Please input a valid grade")
+
+
+
+
+
+/*
+
+    WITHDRAWAL FEATURE
+
+1.Check amount to be withdrwan
+
+2.if user has more than amount or equal to to be withdrawn
+ 
+ ====> withdraw amount successfully
+
+3.Else ===> insufficient funds
+
+
+
+
+
+
+
+
+
+*/
+
+
