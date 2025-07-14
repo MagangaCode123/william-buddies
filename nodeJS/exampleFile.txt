@@ -1,0 +1,6 @@
+This is an example
+ UserID: 001 - AccessLevel: Admin - Status: 0101
+Login: success | Code: 11001001 | IP: 192.168.0.1
+MSG: HelloWorld - Flag: 101011 - Timestamp: 202507141930
+Device=Mobile | Error=00000000 | Retry=101
+BinaryPayload: 0110101001010110 | Note: Sample transmission
